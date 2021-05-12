@@ -3,5 +3,5 @@
 
 
 int main(){
-    BinTree<int> a;
+//    BinTree<int> a;
 }

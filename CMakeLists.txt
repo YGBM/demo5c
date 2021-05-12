@@ -35,4 +35,4 @@ add_executable(
         vector/vector_remove.h
         vector/vector_removeinterval.h
         vector/vector_uniquify.h
-        vector/main.cpp binTree/main.cpp binTree/BinTree_implementation.h binTree/BinTree.h binTree/BinNode.h binTree/BinNode_implementation.h binTree/BinNode_macro.h binTree/BinNode_macro_Basic.h binTree/BinNode_size.h binTree/BinNode_insert.h binTree/BinNode_succ.h)
+        vector/main.cpp binTree/main.cpp binTree/BinTree_implementation.h binTree/BinTree.h binTree/BinNode.h binTree/BinNode_implementation.h binTree/BinNode_macro.h binTree/BinNode_macro_Basic.h binTree/BinNode_size.h binTree/BinNode_insert.h binTree/BinNode_succ.h binTree/BinNode_zig.h binTree/BinNode_macro_AVL.h binTree/BinNode_zag.h binTree/BinNode_travLevel.h binTree/BinNode_travInorder.h binTree/BinNode_travInorder_l1.h binTree/BinNode_travPostorder.h binTree/BinNode_travPostorder_I.h binTree/BinNode_travPreorder.h binTree/BinNode_travPreorder_I1.h binTree/BinTree_remove.h binTree/BinTree_secede.h binTree/BinTree_updateHeight.h binTree/BinTree_insert.h binTree/BinTree_attach.h)
