@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-
+#include "_share/release.h"
 #include "BinTree_updateHeight.h"
 #include "BinTree_insert.h"
 #include "BinTree_attach.h"
