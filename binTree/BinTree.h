@@ -21,16 +21,23 @@ public:
     BinNodePosi(T) attachAsRC ( BinNodePosi(T) x, BinTree<T>* & ); //T作为x右子树接入
     int remove (BinNodePosi(T) x);
     BinTree<T>* secede(BinNodePosi(T) x);
-    template <typename VST> void travLevel(VST &visit){ if(_root) _root ->travLevel(visit);}
-    template <typename VST> void travPre(VST &visit){ if(_root) _root ->travPre(visit);}
-    template <typename VST> void travIn(VST &visit){ if(_root) _root ->travIn(visit);}
-    template <typename VST> void travPost(VST &visit){ if(_root) _root ->travPost(visit);}
-    bool operator< (BinTree<T> const& t)
-    {return _root && t._root && lt ( _root, t._root ); }
+    template <typename VST> //操作器
+    void travLevel ( VST& visit ) { if ( _root ) _root->travLevel ( visit ); } //层次遍历
+    template <typename VST> //操作器
+    void travPre ( VST& visit ) { if ( _root ) _root->travPre ( visit ); } //先序遍历
+    template <typename VST> //操作器
+    void travIn ( VST& visit ) { if ( _root ) _root->travIn ( visit ); } //中序遍历
+    template <typename VST> //操作器
+    void travPost ( VST& visit ) { if ( _root ) _root->travPost ( visit ); } //后序遍历
+    bool operator< ( BinTree<T> const& t ) //比较器（其余自行补充）
+    { return _root && t._root && lt ( _root, t._root ); }
     bool operator== ( BinTree<T> const& t ) //判等器
     { return _root && t._root && ( _root == t._root ); }
 
 };
+
+
+
 
 
 #include "BinTree_implementation.h"
