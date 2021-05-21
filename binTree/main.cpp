@@ -63,5 +63,17 @@ int main() {
     int h = 6;
 //    srand ( ( unsigned int ) time ( NULL ) );
     testBinTree<int> ( h ); //元素类型可以在这里任意选择
+//    BinTree<int> bt;
+//    BinNodePosi(int) root  = bt.insertAsRoot(1);
+////    error call
+////    BinNodePosi(int) rlc = root->insertAsLC(2);
+////    BinNodePosi(int) rrc = root->insertAsRC(3);
+//    BinNodePosi(int) aaa = bt.insertAsRC(root, 2);
+//    bt.insertAsLC(root,3);
+////    bt.insertAsLC(a,123);
+//    bt.insertAsLC(aaa,123);
+//
+////    bt.insertAsLC()
+//    print(bt);
     return 0;
 }

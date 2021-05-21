@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 
 template<typename T>
 Rank Vector<T>::find(const T &e, Rank lo, Rank hi) const {

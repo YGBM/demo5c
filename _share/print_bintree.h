@@ -28,18 +28,18 @@ void UniPrint::p ( BinTree<T> & bt ) { //引用
     printBinTree ( bt.root(), -1, ROOT, branchType ); //树状结构
     release ( branchType ); printf ( "\n" );
 }
-//
-///******************************************************************************************
-// * 基于BinTree实现的BST
-// ******************************************************************************************/
-//template <typename T> //元素类型
-//void UniPrint::p ( BST<T> & bt ) { //引用
-//    printf ( "%s[%d]*%d:\n", typeid ( bt ).name(), (int) &bt, bt.size() ); //基本信息
-//    Bitmap* branchType = new Bitmap; //记录当前节点祖先的方向
-//    printBinTree ( bt.root(), -1, ROOT, branchType ); //树状结构
-//    release ( branchType ); printf ( "\n" );
-//}
-//
+
+/******************************************************************************************
+ * 基于BinTree实现的BST
+ ******************************************************************************************/
+template <typename T> //元素类型
+void UniPrint::p ( BST<T> & bt ) { //引用
+    printf ( "%s[%d]*%d:\n", typeid ( bt ).name(), (int) &bt, bt.size() ); //基本信息
+    Bitmap* branchType = new Bitmap; //记录当前节点祖先的方向
+    printBinTree ( bt.root(), -1, ROOT, branchType ); //树状结构
+    release ( branchType ); printf ( "\n" );
+}
+
 ///******************************************************************************************
 // * 基于BST实现的AVL
 // * 其中调用的BinNode的打印例程，可以显示BF状态

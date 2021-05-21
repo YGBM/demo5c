@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.13)
 project(demo05c)
 
 set(CMAKE_CXX_STANDARD 14)
+#set(CMAKE_BUILD_TYPE Debug)
 include_directories(.)
 include_directories(vector)
 include_directories(binTree)
@@ -66,4 +67,17 @@ add_executable(
         _share/print_implementation.h
         _share/print_binNode.h
         _share/print_bintree.h
-        _share/release.h BitMap/Bitmap.h BitMap/Bitmap_O1_init.h _share/print_basic.cpp _share/double_Elem.h _share/increase_Elem.h)
+        _share/release.h
+        BitMap/Bitmap.h
+        BitMap/Bitmap_O1_init.h
+        _share/print_basic.cpp
+        _share/double_Elem.h
+        _share/increase_Elem.h
+        BTree/BTNode.h
+        BTree/BTree.h
+        BTree/BTree_implementation.h
+        BTree/BTree_insert.h
+#        BTree/main.cpp
+        BTree/BTree_solveOverflow.h BTree/BTree_solveUnderflow.h BTree/BTree_remove.h BTree/BTree_search.h _share/print_btree.h BST/BST.h BST/BST_implementation.h BST/BST_connect34.h
+#        BST/main.cpp
+        BST/BST_insert.h BST/BST_RotateAt.h BST/BST_search.h BST/BST_remove.h BST/BST_removeAt.h)

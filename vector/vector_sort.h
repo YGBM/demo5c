@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 template<typename T>
 
 void Vector<T>::sort(Rank lo, Rank hi) {
