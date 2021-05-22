@@ -80,4 +80,4 @@ add_executable(
 #        BTree/main.cpp
         BTree/BTree_solveOverflow.h BTree/BTree_solveUnderflow.h BTree/BTree_remove.h BTree/BTree_search.h _share/print_btree.h BST/BST.h BST/BST_implementation.h BST/BST_connect34.h
 #        BST/main.cpp
-        BST/BST_insert.h BST/BST_RotateAt.h BST/BST_search.h BST/BST_remove.h BST/BST_removeAt.h)
+        BST/BST_insert.h BST/BST_RotateAt.h BST/BST_search.h BST/BST_remove.h BST/BST_removeAt.h graph/Graph.h graph/Graph_Test.cpp graph/Graph_implementation.h graph/Graph_bfs.h graph/Graph_dfs.h graph/Graph_tsort.h graph/Graph_bcc.h graph/Graph_pfs.h graph/Graph_prim.h graph/Graph_dijkstra.h)
